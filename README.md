@@ -23,5 +23,6 @@ Basic arithmetic logic in Swift
 Updating UI elements programmatically
 
 
-![Simulator Screen Recording - iPhone 17 Pro - 2026-01-19 at 15 40 13](https://github.com/user-attachments/assets/7c1910a0-5c71-47dc-9949-3d307d2e42f4)
+![Simulator Screen Recording - iPhone 17 Pro - 2026-01-19 at 15 52 55](https://github.com/user-attachments/assets/dba42a7e-bfeb-4d81-88dd-9be11ccc1ef4)
+
 
