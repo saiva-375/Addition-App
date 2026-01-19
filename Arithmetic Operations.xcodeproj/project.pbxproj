@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9007BFA2F1EA4E900688854 /* Addition App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Addition App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9007C102F1EA4EA00688854 /* Addition AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Addition AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9007C1A2F1EA4EA00688854 /* Addition AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Addition AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9007BFA2F1EA4E900688854 /* Arithmetic Operations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arithmetic Operations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9007C102F1EA4EA00688854 /* Arithmetic OperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arithmetic OperationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9007C1A2F1EA4EA00688854 /* Arithmetic OperationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arithmetic OperationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D9007C222F1EA4EA00688854 /* Exceptions for "Addition App" folder in "Addition App" target */ = {
+		D9007C222F1EA4EA00688854 /* Exceptions for "Addition App" folder in "Arithmetic Operations" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D9007BF92F1EA4E900688854 /* Addition App */;
+			target = D9007BF92F1EA4E900688854 /* Arithmetic Operations */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		D9007BFC2F1EA4E900688854 /* Addition App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D9007C222F1EA4EA00688854 /* Exceptions for "Addition App" folder in "Addition App" target */,
+				D9007C222F1EA4EA00688854 /* Exceptions for "Addition App" folder in "Arithmetic Operations" target */,
 			);
 			path = "Addition App";
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		D9007BFB2F1EA4E900688854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9007BFA2F1EA4E900688854 /* Addition App.app */,
-				D9007C102F1EA4EA00688854 /* Addition AppTests.xctest */,
-				D9007C1A2F1EA4EA00688854 /* Addition AppUITests.xctest */,
+				D9007BFA2F1EA4E900688854 /* Arithmetic Operations.app */,
+				D9007C102F1EA4EA00688854 /* Arithmetic OperationsTests.xctest */,
+				D9007C1A2F1EA4EA00688854 /* Arithmetic OperationsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9007BF92F1EA4E900688854 /* Addition App */ = {
+		D9007BF92F1EA4E900688854 /* Arithmetic Operations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9007C232F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition App" */;
+			buildConfigurationList = D9007C232F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic Operations" */;
 			buildPhases = (
 				D9007BF62F1EA4E900688854 /* Sources */,
 				D9007BF72F1EA4E900688854 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				D9007BFC2F1EA4E900688854 /* Addition App */,
 			);
-			name = "Addition App";
+			name = "Arithmetic Operations";
 			packageProductDependencies = (
 			);
 			productName = "Addition App";
-			productReference = D9007BFA2F1EA4E900688854 /* Addition App.app */;
+			productReference = D9007BFA2F1EA4E900688854 /* Arithmetic Operations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D9007C0F2F1EA4EA00688854 /* Addition AppTests */ = {
+		D9007C0F2F1EA4EA00688854 /* Arithmetic OperationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9007C282F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition AppTests" */;
+			buildConfigurationList = D9007C282F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic OperationsTests" */;
 			buildPhases = (
 				D9007C0C2F1EA4EA00688854 /* Sources */,
 				D9007C0D2F1EA4EA00688854 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				D9007C132F1EA4EA00688854 /* Addition AppTests */,
 			);
-			name = "Addition AppTests";
+			name = "Arithmetic OperationsTests";
 			packageProductDependencies = (
 			);
 			productName = "Addition AppTests";
-			productReference = D9007C102F1EA4EA00688854 /* Addition AppTests.xctest */;
+			productReference = D9007C102F1EA4EA00688854 /* Arithmetic OperationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9007C192F1EA4EA00688854 /* Addition AppUITests */ = {
+		D9007C192F1EA4EA00688854 /* Arithmetic OperationsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9007C2B2F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition AppUITests" */;
+			buildConfigurationList = D9007C2B2F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic OperationsUITests" */;
 			buildPhases = (
 				D9007C162F1EA4EA00688854 /* Sources */,
 				D9007C172F1EA4EA00688854 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				D9007C1D2F1EA4EA00688854 /* Addition AppUITests */,
 			);
-			name = "Addition AppUITests";
+			name = "Arithmetic OperationsUITests";
 			packageProductDependencies = (
 			);
 			productName = "Addition AppUITests";
-			productReference = D9007C1A2F1EA4EA00688854 /* Addition AppUITests.xctest */;
+			productReference = D9007C1A2F1EA4EA00688854 /* Arithmetic OperationsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9007BF52F1EA4E900688854 /* Build configuration list for PBXProject "Addition App" */;
+			buildConfigurationList = D9007BF52F1EA4E900688854 /* Build configuration list for PBXProject "Arithmetic Operations" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9007BF92F1EA4E900688854 /* Addition App */,
-				D9007C0F2F1EA4EA00688854 /* Addition AppTests */,
-				D9007C192F1EA4EA00688854 /* Addition AppUITests */,
+				D9007BF92F1EA4E900688854 /* Arithmetic Operations */,
+				D9007C0F2F1EA4EA00688854 /* Arithmetic OperationsTests */,
+				D9007C192F1EA4EA00688854 /* Arithmetic OperationsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		D9007C122F1EA4EA00688854 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9007BF92F1EA4E900688854 /* Addition App */;
+			target = D9007BF92F1EA4E900688854 /* Arithmetic Operations */;
 			targetProxy = D9007C112F1EA4EA00688854 /* PBXContainerItemProxy */;
 		};
 		D9007C1C2F1EA4EA00688854 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9007BF92F1EA4E900688854 /* Addition App */;
+			target = D9007BF92F1EA4E900688854 /* Arithmetic Operations */;
 			targetProxy = D9007C1B2F1EA4EA00688854 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Addition App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Addition App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arithmetic Operations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arithmetic Operations";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Addition App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Addition App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arithmetic Operations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arithmetic Operations";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9007BF52F1EA4E900688854 /* Build configuration list for PBXProject "Addition App" */ = {
+		D9007BF52F1EA4E900688854 /* Build configuration list for PBXProject "Arithmetic Operations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9007C262F1EA4EA00688854 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9007C232F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition App" */ = {
+		D9007C232F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic Operations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9007C242F1EA4EA00688854 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9007C282F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition AppTests" */ = {
+		D9007C282F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic OperationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9007C292F1EA4EA00688854 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9007C2B2F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Addition AppUITests" */ = {
+		D9007C2B2F1EA4EA00688854 /* Build configuration list for PBXNativeTarget "Arithmetic OperationsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9007C2C2F1EA4EA00688854 /* Debug */,
