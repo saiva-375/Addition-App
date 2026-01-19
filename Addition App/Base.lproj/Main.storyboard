@@ -76,7 +76,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Clear">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
+                                    <color key="baseBackgroundColor" systemColor="tableCellBlueTextColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="clearAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNB-L9-71p"/>
@@ -129,7 +129,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.92807091249982765" green="0.96611279249191284" blue="0.77754643671035362" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.95542151302077238" green="0.96611279249191284" blue="0.91201590854473513" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="udE-Ck-tJQ" firstAttribute="leading" secondItem="ToB-8d-lZl" secondAttribute="trailing" constant="3" id="20P-bj-cGl"/>
@@ -187,11 +187,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableCellBlueTextColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
