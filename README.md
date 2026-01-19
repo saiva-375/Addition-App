@@ -1,15 +1,27 @@
-Data
+Overview
 
-This app allows users to enter two numbers using text fields. When the user taps the Add button, the app calculates the sum of the numbers. The result is displayed on the screen in a label. The app safely handles empty inputs by treating them as zero.
+This iOS app is a basic calculator built using Swift and UIKit. It allows the user to enter two numbers and perform four arithmetic operations: Addition, Subtraction, Multiplication, and Division. The result of the selected operation is displayed on the screen.
 
 Functionality
 
-Input two numbers using UITextField.
-Click the Add button to perform addition.
-Display the result in a UILabel.
+Accepts two numeric inputs through text fields.
 
-Designed as a beginner-friendly app to learn UI elements, event handling, and basic data processing in Swift.
+Provides buttons for:
+
+Addition
+Subtraction
+Multiplication
+Division
+
+Displays the calculated result in a label.
+
+Helps beginners understand:
+
+IBOutlets and IBActions
+Button click handling
+Basic arithmetic logic in Swift
+Updating UI elements programmatically
 
 
+![Simulator Screen Recording - iPhone 17 Pro - 2026-01-19 at 15 40 13](https://github.com/user-attachments/assets/7c1910a0-5c71-47dc-9949-3d307d2e42f4)
 
-![Simulator Screen Recording - iPhone 17 Pro - 2026-01-19 at 13 12 16](https://github.com/user-attachments/assets/2607645f-3f76-4873-815b-d32a58dccc32)
